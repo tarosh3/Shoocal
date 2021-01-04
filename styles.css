@@ -1,0 +1,96 @@
+html{
+    min-height:100%;
+    position:relative;
+}
+body{
+    margin: 0;
+    height:100%;
+}
+.parent{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  position: absolute;
+  background-color: #15322e;
+  width: 84%;
+  margin-left: 8%;
+	min-height:93%;
+
+	display: -webkit-flex; /* Safari */
+	display: flex;
+}
+.first{
+  margin:  10px;
+  width: auto;
+	flex: 1;
+  text-align:center;
+  background-color: #15322e;
+}
+.Ima{
+  position: relative;
+  top: 10%;
+  left: 25%;
+  border-top: 20%;
+  border-radius: 10%;
+  border: solid 25px #15322E;
+  box-shadow: 0 0 0 8px #BEA155;
+
+  width: 100%;
+  overflow: hidden;
+}
+.Num{
+  position: relative;
+  font-weight: lighter;
+  font-family: 'Noto Sans HK', sans-serif;
+  color: white;
+  font-size: 1.5vw;
+  top: 10%;
+  left: 35%;
+}
+.second{
+  margin:  12px;
+  width: 70%;
+  padding-left: 30%;
+	flex: 1;
+  background-color: white;
+}
+.logo{
+  top: 7%;
+  position: relative;
+  width: 70%;
+  right: 16%;
+  overflow: hidden;
+}
+.scan{
+position: relative;
+top: 13%;
+right: 30%;
+line-height: 0.041;
+}
+.ord{
+  position: relative;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 2.3vw;
+  font-weight: bolder;
+  left: 5%;
+}
+
+.line{
+  position: relative;
+  width: 97%;
+  border: solid 2px #15322e;
+}
+.tex{
+  position:relative;
+  top: 15%;
+  right:30%;
+}
+.al{
+  font-size: 2vw;
+  font-family: 'Noto Sans HK', sans-serif;
+  text-align: center;
+  color: #15322e;
+}
+.bol{
+  font-weight: bolder;
+
+}
